@@ -15,9 +15,9 @@ This repository contains the scripts and additional materials associated with th
 
 
 ## Structure
-/analysis_scripts: This directory contains scripts that are used for conducting analysis in the result section.   
-/assembly_scripts: This directory contains scripts that are used for genome assembly. 
-/polish_scripts: This directory contains scripts that are used for draft assembly polishing. 
+- /analysis_scripts: This directory contains scripts that are used for conducting analysis in the result section.   
+- /assembly_scripts: This directory contains scripts that are used for genome assembly. 
+- /polish_scripts: This directory contains scripts that are used for draft assembly polishing. 
 
 
 ## Issues and Contributions
