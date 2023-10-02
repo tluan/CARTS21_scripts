@@ -11,4 +11,4 @@ o
 
 long_in=$1
 out=$2
-flye --nano-raw ${long_in}  --threads 8 --asm-coverage 200 --genome-size 50m --out-dir $out
+flye --nano-raw ${long_in}  --threads 8 --asm-coverage 200 --genome-size 10m --out-dir $out
