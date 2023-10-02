@@ -9,5 +9,6 @@ o
 #SBATCH --mem=36gb
 #SBATCH --ntasks=8
 
-
-flye --nano-raw /fs/cbcb-scratch/tluan/iso_assembler_eval/exp_samples/filtered_reads/fltd_CFSAN110838.fastq  --threads 8 --asm-coverage 200 --genome-size 50m --out-dir /fs/cbcb-scratch/tluan/iso_assembler_eval/exp_samples/CFSAN110838_fltd/flye_CFSAN110838_fltd_cov_50
+long_in=$1
+out=$2
+flye --nano-raw ${long_in}  --threads 8 --asm-coverage 200 --genome-size 50m --out-dir $out
