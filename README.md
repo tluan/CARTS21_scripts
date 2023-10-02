@@ -14,6 +14,12 @@ This repository contains the scripts and additional materials associated with th
 - Nextpolish (v1.4.0).
 
 
+## Structure
+/analysis_scripts: This directory contains scripts that are used for conducting analysis in the result section.   
+/assembly_scripts: This directory contains scripts that are used for genome assembly. 
+/polish_scripts: This directory contains scripts that are used for draft assembly polishing. 
+
+
 ## Issues and Contributions
 If you encounter any problems or have suggestions, please file an issue or submit a pull request.
 
