@@ -2,7 +2,6 @@
 #SBATCH -J flye # Job name
 #SBATCH -o flye.o # Name of Output File
 #SBATCH -e flye.e # Name of Error File
-o
 #SBATCH --mail-type=all
 #SBATCH --time=18:00:00
 #SBATCH --qos=throughput
