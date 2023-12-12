@@ -27,4 +27,4 @@ If you encounter any problems or have suggestions, please file an issue or submi
 These scripts are released under the MIT License.
 
 ## Contact
-For questions or support, please contact Tu Luan at tluan@umd.edu or < Seth > at <Seth's email> to raise an issue in this GitHub repository.
+For questions or support, please contact Tu Luan at tluan@umd.edu or Seth Commichaux at Seth.Commichaux@fda.hhs.gov to raise an issue in this GitHub repository.
