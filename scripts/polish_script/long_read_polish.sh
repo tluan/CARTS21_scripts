@@ -6,7 +6,7 @@
 #SBATCH --mail-type=all
 #SBATCH --time=7-2:00:00
 #SBATCH --qos=large
-#SBATCH --mem=30gb
+#SBATCH --mem=36gb
 #SBATCH --ntasks=16
 
 
