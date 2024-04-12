@@ -81,13 +81,11 @@ The pipeline will generate polished genome assemblies in the specified output di
 - `/medaka`: Contains Medaka polished genome files.
 - `/nextpolish`: Contains final polished genome files from NextPolish.
 
-## Advanced Configuration
 
-For more advanced users, the Nextflow script can be modified to include additional stages or change computational resources per process depending on the infrastructure available.
 
 ## Troubleshooting
 
-Common issues include path errors, environment misconfigurations, or missing dependencies. Ensure all paths are correct and all required software is properly installed and accessible.
+Common issues include path errors, environment misconfigurations, or missing dependencies. Ensure all paths are correct and all required software is properly installed and accessible. Please put an issue ticket if you encounter any unresolvable issues. 
 
 ## Contributing
 
