@@ -18,7 +18,7 @@ params.nextpolish_path=""
 def usage(status) {
     log.info "Usage: \nnextflow run assembly_polish.nf \n" +
             "[--forward_reads /path/to/forwardReads --reverse_reads /path/to/reverseReads --long_reads /path/to/unpairedReads] \n" +
-            "--output /path/to/outputDir\n"
+            "--output /path/to/outputDir --nextpolish_path /path/to/nextpolishExecutable"
     log.info "Required:\n"
     log.info " --forward_reads        Path to forward paired-end read."
     log.info " --reverse_reads        Path to reverse paired-end read."
