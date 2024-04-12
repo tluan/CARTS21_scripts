@@ -1,4 +1,4 @@
-Here's a revised version of your README for the Assembly Polish Pipeline using Nextflow, with improved clarity and structure:
+
 
 ---
 
