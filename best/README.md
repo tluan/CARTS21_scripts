@@ -37,12 +37,13 @@ Before running the pipeline, ensure all the required tools are installed and acc
 
 Parameters can be adjusted in the script or passed as command-line arguments:
 
-- `--forward_reads`: Path to forward paired-end reads.
-- `--reverse_reads`: Path to reverse paired-end reads.
-- `--long_reads`: Path to long-read FASTA file(s).
+- `--forward_reads`: Path to forward paired-end reads FASTQ file.
+- `--reverse_reads`: Path to reverse paired-end reads FASTQ file.
+- `--long_reads`: Path to long-read FASTQ file(s).
 - `--output`: Path to the output directory where results will be saved.
 - `--threads`: Number of threads to use (default: 8).
 - `--maxiter`: Maximum number of polishing iterations (default: 4).
+- `--nextpolish_path`:  Specifies the path to the NextPolish executable if you wish to use a different version of NextPolish. The default path is the current directory.
 
 
 ## Usage
@@ -67,9 +68,9 @@ nextflow run assembly_polish.nf --help
 
 ## Workflow Processes
 
-1. **UnicyclerAssembly**: Assembles genomes using Unicycler combining both short-read and long-read data.
+1. **UnicyclerAssembly**: Assembles genomes using Unicycler combining both short-read and long-read data. 
 2. **RaconPolishing**: Polishes the assembled genome using Racon through multiple iterations.
-3. **MedakaPolishing**: Uses Medaka for further polishing of the genome assembled and polished by previous steps.
+3. **MedakaPolishing**: Uses Medaka for further polishing of the genome assembled and polished by previous steps. Here the default model for medaka Version 1.7.2 is used.
 4. **NextPolishPolishing**: Final polishing using NextPolish to refine assembly based on error correction using paired reads.
 
 ## Outputs
@@ -80,7 +81,6 @@ The pipeline will generate polished genome assemblies in the specified output di
 - `/racon`: Contains Racon polished genome files.
 - `/medaka`: Contains Medaka polished genome files.
 - `/nextpolish`: Contains final polished genome files from NextPolish.
-
 
 
 ## Troubleshooting
