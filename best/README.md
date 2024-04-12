@@ -24,7 +24,7 @@ To be able to reproduce our results, we recommend using the versions listed belo
 - **BWA**: Version 0.7.17. [Official website](http://bio-bwa.sourceforge.net/).
 - **Samtools**: Version 1.6. [Official website](http://www.htslib.org/).
 - **Python**: Version 3.x for specific scripts.
-- **NextPolish**: Version 1.4.0 [Official website](https://github.com/Nextomics/NextPolish).
+- **NextPolish**: Version 1.4.0 [Official website](https://github.com/Nextomics/NextPolish). This tool must be installed in the same directory as the Nextflow script for proper functionality.
 
 ---
 
