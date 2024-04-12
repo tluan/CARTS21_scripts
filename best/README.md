@@ -2,7 +2,7 @@ Here's a revised version of your README for the Assembly Polish Pipeline using N
 
 ---
 
-# README for the Assembly Polish Pipeline Using Nextflow
+# README for the best Assembly Polish Pipeline
 
 ## Overview
 
