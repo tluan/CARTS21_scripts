@@ -77,10 +77,10 @@ nextflow run assembly_polish.nf --help
 
 The pipeline will generate polished genome assemblies in the specified output directory, organized into subdirectories for each tool used:
 
-- `/unicycler`: Contains initial assembly results from Unicycler.
-- `/racon`: Contains Racon polished genome files.
-- `/medaka`: Contains Medaka polished genome files.
-- `/nextpolish`: Contains final polished genome files from NextPolish.
+- `unicycler/assembly.fasta`: The initial assembly results from Unicycler.
+- `racon_round4.fasta`:  The Racon polished genome files.
+- `medaka.fasta`: The medaka polished genome files.
+- `genome.nextpolish.fa`: The final polished genome files from NextPolish.
 
 
 ## Troubleshooting
