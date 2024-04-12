@@ -13,7 +13,7 @@ params.help = false
 params.threads = 8
 params.maxiter = 4
 params.sample_id = ""
-params.nextpolish_path="."
+params.nextpolish_path=""
 // Helper function for displaying usage information
 def usage(status) {
     log.info "Usage: \nnextflow run assembly_polish.nf \n" +
@@ -23,7 +23,8 @@ def usage(status) {
     log.info " --forward_reads        Path to forward paired-end read."
     log.info " --reverse_reads        Path to reverse paired-end read."
     log.info " --long_reads           Path to unpaired read fasta file(s)."
-    log.info " --output               Path to output folder."
+    log.info " --output               Path to the output folder."
+    log.info " --nextpolish_path      Path to your nextpolish executable." 
     log.info " --help                 Print help message."
 
     System.exit(status)
@@ -35,7 +36,7 @@ if (params.help) {
 }
 
 // Check for required parameters
-if (!params.forward_reads || !params.reverse_reads || !params.long_reads || !params.output) {
+if (!params.forward_reads || !params.reverse_reads || !params.long_reads || !params.output|| !params.nextpolish_path) {
     log.error "Error: Missing required parameter(s)."
     usage(1)
 }
