@@ -68,10 +68,10 @@ nextflow run assembly_polish.nf --help
 
 ## Workflow Processes
 
-1. **UnicyclerAssembly**: Assembles genomes using Unicycler combining both short-read and long-read data. 
-2. **RaconPolishing**: Polishes the assembled genome using Racon through multiple iterations.
-3. **MedakaPolishing**: Uses Medaka for further polishing of the genome assembled and polished by previous steps. Here the default model for medaka Version 1.7.2 is used.
-4. **NextPolishPolishing**: Final polishing using NextPolish to refine assembly based on error correction using paired reads.
+1. **UnicyclerAssembly**: Assembles genomes using Unicycler combining both short-read and long-read data. There are no additional parameters set for this process beyond the long and short reads. 
+2. **RaconPolishing**: Polishes the assembled genome using Racon through multiple iterations. There are no additional parameters set for this process beyond the long reads and the baseline assembly. 
+3. **MedakaPolishing**: Uses Medaka for further polishing of the genome assembled and polished by previous steps. Here the default model for medaka Version 1.7.2 is used. There are no additional parameters set for this process beyond the long reads and the racon polished assembly. 
+4. **NextPolishPolishing**: Final polishing using NextPolish to refine assembly based on error correction using paired reads. There are no additional parameters set for this process beyond the short reads and the medaka polished assembly. 
 
 ## Outputs
 
