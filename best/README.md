@@ -6,7 +6,7 @@
 
 ## Overview
 
-The Assembly Polish Pipeline is a robust Nextflow-based workflow designed to streamline genome assembly and polishing processes. It leverages Unicycler for assembly, along with Racon and Medaka for long-read polishing, and NextPolish for short-read polishing. This pipeline facilitates the assembly of genomes from paired-end and long-read sequencing data, followed by iterative polishing to significantly improve assembly quality.
+This Assembly Polish Pipeline is a robust Nextflow-based workflow designed to streamline genome assembly and polishing processes. It leverages Unicycler for assembly, along with Racon and Medaka for long-read polishing, and NextPolish for short-read polishing. This pipeline facilitates the assembly of genomes from paired-end and long-read sequencing data, followed by iterative polishing to significantly improve assembly quality.
 
 ## Requirements
 
