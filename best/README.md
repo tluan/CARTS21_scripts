@@ -2,7 +2,7 @@
 
 ---
 
-# README for the best Assembly Polish Pipeline
+# Assembly Polish Pipeline Achieving Near-perfect Accuracy 
 
 ## Overview
 
